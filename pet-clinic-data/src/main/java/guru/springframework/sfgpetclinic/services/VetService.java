@@ -1,14 +1,14 @@
 package guru.springframework.sfgpetclinic.services;
 
-import guru.springframework.sfgpetclinic.model.Veternarian;
+import guru.springframework.sfgpetclinic.model.Veterinarian;
 
 import java.util.Set;
 
 public interface VetService {
 
-    Veternarian findById(Long id);
+    Veterinarian findById(Long id);
 
-    Veternarian save(Veternarian pet);
+    Veterinarian save(Veterinarian pet);
 
-    Set<Veternarian> findAll();
+    Set<Veterinarian> findAll();
 }

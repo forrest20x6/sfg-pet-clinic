@@ -1,10 +1,10 @@
 package guru.springframework.sfgpetclinic.model;
 
-public class Veternarian extends Person {
+public class Veterinarian extends Person {
 
 
 
-    public Veternarian() {
+    public Veterinarian() {
         super();
     }
 
